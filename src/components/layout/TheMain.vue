@@ -1,11 +1,11 @@
 <template>
-	<main class="flex flex-auto p-6 justify-center items-center">
-		<article class="w-80 bg- p-4 bg-white rounded-2.5xl shadow-xl">
-			<div class="rounded-xl overflow-hidden">
+	<main class="flex flex-auto items-center justify-center p-6">
+		<article class="w-80 rounded-2.5xl bg-white p-4 shadow-xl">
+			<div class="overflow-hidden rounded-xl">
 				<img :src="require('@/assets/images/qr-code.png')" alt="" />
 			</div>
-			<div class="px-4 py-6 text-center space-y-4">
-				<h2 class="font-bold text-xl text-dark-blue">
+			<div class="space-y-4 px-4 py-6 text-center">
+				<h2 class="text-xl font-bold text-dark-blue">
 					Improve your front-end skills by building projects
 				</h2>
 				<p>
