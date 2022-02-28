@@ -25,9 +25,17 @@
 		<link
 			rel="stylesheet"
 			href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" />
+
+		<script>
+			if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+				document.documentElement.classList.add('dark');
+			} else {
+				document.documentElement.classList.remove('dark');
+			}
+		</script>
 	</head>
 	<body
-		class="flex min-h-screen bg-light-gray leading-tight font-primary text-sm font-normal antialiased text-grayish-blue">
+		class="flex min-h-screen bg-light-gray font-primary text-sm font-normal leading-tight text-grayish-blue antialiased dark:bg-black">
 		<noscript>
 			<strong
 				>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't

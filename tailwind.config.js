@@ -1,6 +1,6 @@
 module.exports = {
 	purge: ['./public/**/*.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
-	darkMode: false, // or 'media' or 'class'
+	darkMode: 'media', // or 'media' or 'class'
 	theme: {
 		extend: {
 			fontSize: {
@@ -10,6 +10,9 @@ module.exports = {
 			borderRadius: {
 				'2.5xl': '1.25rem',
 			},
+			spacing: {
+				full: '100%',
+			},
 		},
 		fontFamily: {
 			primary: ['Outfit', 'sans-serif'],
@@ -17,6 +20,7 @@ module.exports = {
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
+			black: 'hsl(0, 0%, 0%)',
 			white: 'hsl(0, 0%, 100%)',
 			'light-gray': 'hsl(212, 45%, 89%)',
 			'grayish-blue': 'hsl(220, 15%, 55%)',

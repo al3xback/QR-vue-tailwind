@@ -4,14 +4,14 @@
 			<p>
 				Challenge by
 				<a
-					class="text-dark-blue"
+					class="text-dark-blue dark:text-white"
 					href="https://www.frontendmentor.io?ref=challenge"
 					target="_blank"
 					>Frontend Mentor</a
 				>
 				. Coded by
 				<a
-					class="text-dark-blue"
+					class="text-dark-blue dark:text-white"
 					href="https://github.com/al3xback"
 					rel="noopener"
 					target="_blank"
